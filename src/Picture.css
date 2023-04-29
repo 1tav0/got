@@ -1,0 +1,32 @@
+.picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.picture__logo{
+    object-fit: contain;
+    height: 200px;
+    border: 3px solid whitesmoke;
+}
+
+.picture__text1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.picture__text2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.4rem;
+}
+
+
